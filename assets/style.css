@@ -1,0 +1,17 @@
+.head {
+    color: red;
+    font-size: 24px;
+}
+
+h1 {
+    color: white;
+    align-content: center;
+}
+
+.city {
+    color: black;
+}
+
+.btn {
+    background-color: rgb(103, 197, 255);
+}
