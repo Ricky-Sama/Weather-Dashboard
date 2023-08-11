@@ -11,7 +11,7 @@ $(document).ready(function () {
 
         const apiUrl = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=imperial&appid=c568031de7971de7bf91e68b42233ba1";
 
-               // make a repo request to the url
+               
                fetch(apiUrl).then(function (repsonse) {
                 repsonse.json().then(function (data) {
                     const latitude = data.city.coord.lat
@@ -47,7 +47,7 @@ $(document).ready(function () {
 
         const displayWeather = function (data, city, uvData) {
 
-            // Clear Content
+            
             document.querySelector(".weather-data").textContent = "";
             document.querySelector(".card-deck").innerHTML = "";
             const conditions = data.list[0];

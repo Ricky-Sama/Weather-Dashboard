@@ -15,3 +15,28 @@ h1 {
 .btn {
     background-color: rgb(103, 197, 255);
 }
+
+.list-group-item {
+    color: black;
+    cursor:pointer
+}
+
+#weather-today {
+    background-color: lightsteelblue;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.severe {
+    background-color: red;
+}
+
+.moderate {
+    background-color: yellow;
+}
+
+.favorable {
+    background-color: green;
+}
